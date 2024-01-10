@@ -1,0 +1,23 @@
+input {
+  -webkit-appearance: none;
+  position: relative;
+  width: 50px;
+  height: 30px;
+  border-radius: 28%/50%;
+  cursor: pointer;
+}
+
+input::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  left: 10%;
+  border-radius: 50%;
+  height: 1.25rem;
+  width: 1.25rem;
+  transition: left 0.3s;
+}
+
+input:checked::after {
+  left: 50%;
+}

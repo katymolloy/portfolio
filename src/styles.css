@@ -1,1 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark-bg: #000000;
+  --dark-text: #ffffff;
+
+  --light-bg: #ffffff;
+  --light-text: #000000;
+}
+
+.body-reg-text {
+  font-family: "interstate-mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body-header-text {
+  font-family: "interstate-mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header-text {
+  font-family: "nort", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* font-family: "nort", sans-serif;
+font-weight: 800;
+font-style: normal; */
+
+a {
+  text-decoration: none;
+}
+
+.dark-theme {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+  a:visited {
+    color: var(--dark-text);
+  }
+  input {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  input:after{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  input:checked{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+}
+
+.light-theme {
+  background-color: var(--light-bg);
+  color: var(--light-text);
+  a:visited {
+    color: var(--light-text);
+  }
+  input {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  input:after{
+
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  input:checked{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
