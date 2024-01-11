@@ -1,37 +1,33 @@
-
-
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 3em;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 3em;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    gap: 1.2em;
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
 }
 
 .nav-button {
-    font-size: 1.3em;
+  font-size: 1.3em;
 
+  opacity: 0.5;
 }
 
-
-
-
-.logo-image{
-    height: 3.5em;
-    width: 3.5em;
+.logo-image {
+  height: 3.5em;
+  width: 3.5em;
 }
 
-.title-section{
-    display: flex;
-    gap: 1em;
+.title-section {
+  display: flex;
+  gap: 1em;
 }
 
-.title-text{
-    display: flex;
-    flex-direction: column;
+.title-text {
+  display: flex;
+  flex-direction: column;
 }

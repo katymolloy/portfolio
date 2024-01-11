@@ -1,48 +1,14 @@
 .fof-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 84vh;
-  overflow: hidden;
+  height: 60vh;
+
 }
 
-.animation-div {
-  display: flex;
-  flex: 1;
-  width: 100%;
-  justify-content: flex-start;
-  align-items: flex-end;
+
+.go-back{
+  text-decoration: underline;
 }
 
-.animated-fof-icon {
-  max-width: 10em;
-  max-height: 10em;
-
-  animation: tumble 12s linear infinite;
-}
-
-@keyframes tumble {
-  0% {
-    transform: translateX(0) rotate(0deg) translateY(0);
-  }
-  25% {
-    transform: translateX(475px) rotate(180deg) translateY(50px);
-  }
-
-  50% {
-    transform: translateX(950px) rotate(360deg) translateY(0);
-  }
-  75% {
-    transform: translateX(1425px) rotate(540deg) translateY(50px);
-  }
-  100% {
-    transform: translateX(1900px) rotate(720deg) translateY(0);
-  }
-}
-
-.animation-bg {
-  padding-top: 5px;
-  position: fixed;
-  width: 100%;
-}

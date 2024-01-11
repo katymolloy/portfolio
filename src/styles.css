@@ -75,7 +75,7 @@ a:hover {
 }
 
 .text-xxxl {
-  font-size: 6em;
+  font-size: 7em;
 }
 
 a {
@@ -90,11 +90,23 @@ a {
     color: var(--dark-text);
   }
 
+
+  a.active-button {
+    color: var(--dark-accent);
+    opacity: 1;
+
+  }
+
+  .about-image-div {
+    box-shadow: 15px 15px var(--dark-accent);
+    border: solid 3px var(--dark-bg);
+  }
+
   .cta-div {
     color: var(--dark-bg);
     background-color: var(--dark-text);
-    border-radius: 5px;
     box-shadow: 10px 10px var(--dark-accent);
+    border: solid 3px var(--dark-bg);
   }
 }
 
@@ -106,22 +118,32 @@ a {
     color: var(--light-text);
   }
 
+  a.active-button {
+    color: var(--light-accent);
+    opacity: 1;
+  }
+
   .cta-div {
     color: var(--light-bg);
     background-color: var(--light-text);
-    border-radius: 5px;
     box-shadow: 10px 10px var(--light-accent);
+    border: solid 3px var(--light-bg);
   }
 
   .filter-image {
     filter: invert();
   }
-}
-
-a.active-button {
-  text-decoration: underline;
+  .about-image-div {
+    box-shadow: 15px 15px var(--light-accent);
+    border: solid 3px var(--light-bg);
+  }
 }
 
 .decorative-image {
-  max-width: 2em;
+  max-width: 5em;
+  max-height: 5em;
+}
+
+.cta-div {
+  border-radius: 7px;
 }

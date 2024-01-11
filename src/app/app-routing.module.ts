@@ -7,10 +7,10 @@ import { FourOFourComponent } from './components/four-o-four/four-o-four.compone
 import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'projects', component: ProjectsComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: '', component: HomeComponent, data: { animation: 'isRight' } },
+  { path: 'about', component: AboutComponent, data: { animation: 'isRight' }  },
+  { path: 'projects', component: ProjectsComponent, data: { animation: 'isRight' }  },
+  { path: 'contact', component: ContactComponent, data: { animation: 'isRight' }  },
   { path: '**', component: FourOFourComponent },
 ];
 
