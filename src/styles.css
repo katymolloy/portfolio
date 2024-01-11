@@ -1,12 +1,14 @@
-
-html, body {
+html,
+body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  letter-spacing: 1px;
 }
 
-.container{
+.container {
   margin: 2em 3em;
+  /* height: 95vh */
 }
 
 :root {
@@ -17,27 +19,60 @@ html, body {
   --light-text: #000000;
 }
 
-.body-reg-text {
-  font-family: "interstate-mono", monospace;
-  font-weight: 400;
+/* .body-reg-text {
+  font-family: "forma-djr-display", sans-serif;
+
   font-style: normal;
+} */
+
+.italic {
+  font-style: italic;
 }
 
-.body-header-text {
-  font-family: "interstate-mono", monospace;
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.weight-700 {
   font-weight: 700;
-  font-style: normal;
+}
+
+.weight-800 {
+  font-weight: 900;
+}
+
+/* font-family: "forma-djr-display", sans-serif;
+
+font-style: normal;
+
+/* font-family: "forma-djr-display", sans-serif;
+font-weight: 700;
+font-style: italic;
+
+/* 
+
+font-style: normal;*/
+ .forma-djr {
+  font-family: "forma-djr-display", sans-serif;
+  /* font-weight: 500;
+  font-style: normal; */
+}
+
+/* .body-header-text {
+  font-family: "forma-djr-display", sans-serif;
+font-weight: 700;
+font-style: italic;
 }
 
 .header-text {
-  font-family: "nort", sans-serif;
-  font-weight: 700;
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 900;
   font-style: normal;
-}
-
-/* font-family: "nort", sans-serif;
-font-weight: 800;
-font-style: normal; */
+} */
 
 a {
   text-decoration: none;
@@ -49,15 +84,6 @@ a {
   a:visited {
     color: var(--dark-text);
   }
-  input {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  input:after{
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  input:checked{
-    background-color: rgba(255, 255, 255, 0.2);
-}
 }
 
 .light-theme {
@@ -66,21 +92,23 @@ a {
   a:visited {
     color: var(--light-text);
   }
-  input {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  input:after{
 
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  input:checked{
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  img{
+  .filter-image {
     filter: invert();
   }
 }
 
-div, h1, h2, p:hover{
+div,
+h1,
+h2,
+p:hover {
   cursor: default;
+}
+
+a.active-button{
+  text-decoration: underline;
+}
+
+.decorative-image{
+  max-width: 2em;
 }

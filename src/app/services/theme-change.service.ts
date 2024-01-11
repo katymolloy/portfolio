@@ -8,6 +8,7 @@ export class ThemeChangeService {
 
   changeTheme(theme: boolean) {
     const body = document.getElementsByTagName('body')[0];
+    const changeButton = document.getElementById('themeButton');
     switch (theme) {
       case true:
         body.classList.remove('dark-theme');

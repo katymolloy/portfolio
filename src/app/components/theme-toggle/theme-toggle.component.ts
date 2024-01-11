@@ -8,6 +8,9 @@ import { ThemeChangeService } from 'src/app/services/theme-change.service';
 })
 export class ThemeToggleComponent {
   currentTheme: boolean = false;
+  lightTheme: string = 'wb_sunny';
+  darkTheme: string = 'brightness_2';
+
   constructor(private updateTheme: ThemeChangeService) {}
 
   toggleTheme() {

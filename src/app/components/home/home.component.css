@@ -1,0 +1,26 @@
+.home-container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.cta-button{
+    border: solid 1px ;
+    border-radius: 10%/50%;
+}
+
+.cta-button-container{
+    display: flex;
+    gap: 1em;
+}
+
+.cta-decorator{
+    opacity: 0.5;
+
+}
+.cta-text{
+    font-size: 3em;
+}

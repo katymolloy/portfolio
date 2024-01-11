@@ -1,23 +1,12 @@
-input {
-  -webkit-appearance: none;
-  position: relative;
-  width: 50px;
-  height: 30px;
-  border-radius: 28%/50%;
+.light-icon {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.dark-icon {
+
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.theme-change-icon:hover {
   cursor: pointer;
-}
-
-input::after {
-  content: "";
-  position: absolute;
-  top: 16%;
-  left: 10%;
-  border-radius: 50%;
-  height: 1.25rem;
-  width: 1.25rem;
-  transition: left 0.3s;
-}
-
-input:checked::after {
-  left: 50%;
 }

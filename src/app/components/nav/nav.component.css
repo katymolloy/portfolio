@@ -4,26 +4,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5em 3em;
+    padding: 1em 3em;
 }
 
 nav{
     display: flex;
-    gap: 2em;
+    align-items: center;
+    gap: 1.2em;
 }
 
-.nav-button{
-    text-decoration: none;
-    padding: 0.4em;
-    font-size: 2em;
-    /* position: fixed; */
+.nav-button {
+    font-size: 1.3em;
+
 }
+
+
 
 
 .logo-image{
-    height: 5em;
-    width: 5em;
-    aspect-ratio: auto;
+    height: 3.5em;
+    width: 3.5em;
 }
 
 .title-section{
@@ -34,8 +34,4 @@ nav{
 .title-text{
     display: flex;
     flex-direction: column;
-}
-hr{
-    width: 90%;
-    border-top: solid 0.7px;
 }
