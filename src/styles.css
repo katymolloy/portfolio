@@ -1,29 +1,38 @@
+:root {
+  --dark-bg: #000000;
+  --dark-text: #ffffff;
+  --dark-accent: #ffff00;
+
+  --light-bg: #ffffff;
+  --light-text: #000000;
+  --light-accent: #0000ff;
+}
+
 html,
 body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  letter-spacing: 1px;
+  letter-spacing: 0.7px;
+}
+div,
+h1,
+h2,
+p:hover {
+  cursor: default;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .container {
   margin: 2em 3em;
-  /* height: 95vh */
 }
 
-:root {
-  --dark-bg: #000000;
-  --dark-text: #ffffff;
-
-  --light-bg: #ffffff;
-  --light-text: #000000;
-}
-
-/* .body-reg-text {
+.forma-djr {
   font-family: "forma-djr-display", sans-serif;
-
-  font-style: normal;
-} */
+}
 
 .italic {
   font-style: italic;
@@ -45,34 +54,29 @@ body {
   font-weight: 900;
 }
 
-/* font-family: "forma-djr-display", sans-serif;
-
-font-style: normal;
-
-/* font-family: "forma-djr-display", sans-serif;
-font-weight: 700;
-font-style: italic;
-
-/* 
-
-font-style: normal;*/
- .forma-djr {
-  font-family: "forma-djr-display", sans-serif;
-  /* font-weight: 500;
-  font-style: normal; */
+.text-sm {
+  font-size: 1.3em;
 }
 
-/* .body-header-text {
-  font-family: "forma-djr-display", sans-serif;
-font-weight: 700;
-font-style: italic;
+.text-md {
+  font-size: 2em;
 }
 
-.header-text {
-  font-family: "forma-djr-display", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-} */
+.text-lg {
+  font-size: 3em;
+}
+
+.text-xl {
+  font-size: 4em;
+}
+
+.text-xxl {
+  font-size: 5em;
+}
+
+.text-xxxl {
+  font-size: 6em;
+}
 
 a {
   text-decoration: none;
@@ -81,16 +85,32 @@ a {
 .dark-theme {
   background-color: var(--dark-bg);
   color: var(--dark-text);
+
   a:visited {
     color: var(--dark-text);
+  }
+
+  .cta-div {
+    color: var(--dark-bg);
+    background-color: var(--dark-text);
+    border-radius: 5px;
+    box-shadow: 10px 10px var(--dark-accent);
   }
 }
 
 .light-theme {
   background-color: var(--light-bg);
   color: var(--light-text);
+
   a:visited {
     color: var(--light-text);
+  }
+
+  .cta-div {
+    color: var(--light-bg);
+    background-color: var(--light-text);
+    border-radius: 5px;
+    box-shadow: 10px 10px var(--light-accent);
   }
 
   .filter-image {
@@ -98,17 +118,10 @@ a {
   }
 }
 
-div,
-h1,
-h2,
-p:hover {
-  cursor: default;
-}
-
-a.active-button{
+a.active-button {
   text-decoration: underline;
 }
 
-.decorative-image{
+.decorative-image {
   max-width: 2em;
 }
