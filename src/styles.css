@@ -1,9 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
 
 html, body {
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+.container{
+  margin: 2em 3em;
 }
 
 :root {
@@ -73,4 +76,11 @@ a {
   input:checked{
     background-color: rgba(0, 0, 0, 0.2);
   }
+  img{
+    filter: invert();
+  }
+}
+
+div, h1, h2, p:hover{
+  cursor: default;
 }

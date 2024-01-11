@@ -11,6 +11,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ThemeToggleComponent } from './components/theme-toggle/theme-toggle.component';
 import { FourOFourComponent } from './components/four-o-four/four-o-four.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FourOFourComponent } from './components/four-o-four/four-o-four.compone
     AboutComponent,
     ProjectsComponent,
     ThemeToggleComponent,
-    FourOFourComponent
+    FourOFourComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
