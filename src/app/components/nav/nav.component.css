@@ -12,7 +12,8 @@ nav {
 }
 
 .nav-button {
-  font-size: 1.3em;
+  font-size: var(--text-sm);
+  font-weight: var(--text-700);
 
   opacity: 0.5;
 }

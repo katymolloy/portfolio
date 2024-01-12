@@ -13,6 +13,9 @@
 .cta-div {
   width: 11em;
   padding: 0.2em;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
 }
 
 .cta-div:hover {
@@ -31,11 +34,13 @@
   padding: 0;
   top: 0;
   margin: 0;
+  font-size: var(--text-sm);
 }
 .cta-name {
   padding: 0;
   top: 0;
   margin: 0;
+  font-size: var(--text-xxxl);
 }
 
 .cta-bottom-text {
@@ -43,6 +48,7 @@
   padding: 0;
   top: 0;
   margin: 0;
+  font-size: var(--text-md);
 }
 
 .home-text {
@@ -51,30 +57,33 @@
   /* gap: 1em; */
 }
 
-.star {
-  position: absolute;
-  top: 23%;
-  left: 35%;
-  z-index: -1;
-}
+@media screen and (max-width: 600px) {
+  /* Your styles go here */
 
-.star-2 {
-  position: absolute;
-  top: 28%;
-  left: 16%;
-}
+  .cta-top-text {
+    font-size: var(--text-sm);
+  }
+  .cta-name {
+    font-size: var(--text-lg);
+  }
+  .cta-bottom-text {
+    font-size: var(--text-md);
+  }
 
-.star-3 {
-  position: absolute;
-  top: 18%;
-  left: 32%;
-}
+  .cta-div-text {
+    font-size: var(--text-sm);
+  }
 
-.flower {
-  max-width: 7em;
-  max-height: 7em;
-  position: absolute;
-  top: 50%;
-  left: 12%;
-  z-index: -1;
+  .cta-div {
+    width: 11em;
+ 
+  }
+  .home-container {
+    height: 70vh;
+
+  }
+
+  .cta-div-container {
+    justify-content: center;
+  }
 }
