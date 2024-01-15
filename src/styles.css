@@ -73,6 +73,7 @@ a:hover {
 
 .container {
   margin: 2em 3em;
+  height: 80vh;
 }
 
 a {
@@ -107,6 +108,9 @@ a {
     background-color: var(--dark-text);
     box-shadow: 10px 10px var(--dark-accent);
     border: solid 3px var(--dark-bg);
+  }
+  .social-icon{
+    filter: invert()
   }
 }
 

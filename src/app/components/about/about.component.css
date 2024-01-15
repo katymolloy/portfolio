@@ -1,6 +1,13 @@
 .about-content {
   display: flex;
   gap: 4em;
+  align-items: center;
+}
+
+.section-text{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 .about-link {
