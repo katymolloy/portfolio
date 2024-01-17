@@ -1,35 +1,43 @@
-
-.project-container{
+.project-container {
   display: flex;
   gap: 1.3em;
+  height: 95vh;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.section-title{
+.section-title {
   font-size: var(--text-sm);
   font-weight: var(--text-600);
 }
 
-.browser-icons{
+.browser-icons {
   display: flex;
   gap: 0.3em;
 }
 
-.browser-detail{
+a:hover {
+  cursor: pointer;
+}
+
+.browser-detail {
   display: flex;
   padding: 0 1em;
   justify-content: space-between;
   align-items: center;
 }
 
-.section-content{
+.section-content {
   flex-wrap: wrap;
-
+  position: absolute;
+  opacity: 0;
+  width: 26em;
 }
 
 .skill-pill-container {
   display: flex;
   gap: 0.3em;
+  padding: 0 1em;
 }
 
 .project-section {
@@ -40,14 +48,85 @@
 .section-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.3em;
+  gap: 1.5em;
+}
+
+.project-explanation {
+  padding: 1em;
+  font-size: var(--text-sm);
+}
+
+.section-container:hover {
+  .section-content {
+    /* font-size: var(--text-sm); */
+    display: flex;
+    flex-direction: column;
+
+    /* border-radius: 0 0 7px 7px; */
+    height: 20.7em;
+    opacity: 1;
+    /* width: 100%; */
+    /* height: 100%; */
+    object-fit: cover;
+    object-position: center;
+ 
+  }
 }
 
 .website-photo {
-  max-width: 25em;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-.project-card{
-  max-width: 25em;
-  height: 27em;
+
+.project-card {
+  width: 26em;
+  height: 23.3em;
+  border-radius: 7px;
+}
+
+.skill-pill {
+  border-radius: 25%/50%;
+  padding: 0.5em;
+  min-width: 4.2em;
+  display: flex;
+  justify-content: center;
+  max-width: 10em;
+}
+
+.browser-detail {
+  height: 2.4em;
+}
+
+@media screen and (max-width: 1090px) {
+  /* .website-photo {
+   width: 18em;
+  }
+
+  .project-container {
+    justify-content: space-between;
+  }
+  .project-card {
+    width: 21em;
+    height: 23em;
+  } */
+}
+
+@media screen and (max-width: 600px) {
+  .website-photo {
+   width: 18em;
+
+  }
+
+  .project-container {
+    justify-content: center;
+  }
+  .project-card {
+   width: 18em;
+    height: 20em;
+  }
+
+  /* Add more styles as needed */
 }

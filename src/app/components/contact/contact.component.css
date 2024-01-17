@@ -1,4 +1,21 @@
 .social-icon{
-    max-width: 4em;
+    max-width: 3em;
 }
 
+.link-container{
+    display: flex;
+    gap: 2em;
+}
+
+.contact-cta{
+    font-size: var(--text-md);
+    font-weight: var(--text-600)
+}
+
+.cta-div{
+    border-radius:  7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em 2em;
+}

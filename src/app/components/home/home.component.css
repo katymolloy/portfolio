@@ -78,10 +78,10 @@
     width: 11em;
  
   }
-  .home-container {
-    height: 70vh;
-
-  }
+  /* .home-container {
+    height: 50vh;
+overflow: hidden;
+  } */
 
   .cta-div-container {
     justify-content: center;

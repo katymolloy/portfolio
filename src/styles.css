@@ -52,24 +52,6 @@
   letter-spacing: var(--spacing-sm);
 }
 
-.skill-pill {
-  border-radius: 25%/50%;
-  padding: 0.5em;
-
-  min-width: 4.2em;
-  display: flex;
-  justify-content: center;
-  max-width: 10em;
-}
-
-.project-card {
-  border-radius: 7px;
-}
-
-.browser-detail {
-  height: 2.4em;
-}
-
 html,
 body {
   height: 100vh;
@@ -106,7 +88,12 @@ a {
   .nav-button:visited {
     color: var(--dark-text);
   }
-
+  a {
+    color: var(--dark-bg);
+  }
+  .go-back {
+    color: var(--dark-text);
+  }
   .about-link-ref {
     color: var(--light-text);
   }
@@ -145,6 +132,12 @@ a {
   .social-icon {
     filter: invert();
   }
+
+    .section-content{
+      background-color: var(--dark-text);
+      color: var(--dark-bg)
+    }
+  
 }
 
 /* light theme */
@@ -163,6 +156,13 @@ a {
 
   a.about-link-ref {
     color: var(--dark-text);
+  }
+
+  a {
+    color: var(--light-bg);
+  }
+  .go-back {
+    color: var(--light-text);
   }
 
   .cta-div {
@@ -193,6 +193,10 @@ a {
   .about-image-div {
     box-shadow: 15px 15px var(--light-accent);
     border: solid 3px var(--light-bg);
+  }
+  .section-content{
+    background-color: var(--light-text);
+    color: var(--light-bg)
   }
 }
 
