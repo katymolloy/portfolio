@@ -5,6 +5,9 @@
 .link-container{
     display: flex;
     gap: 2em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-cta{
@@ -18,4 +21,12 @@
     align-items: center;
     justify-content: center;
     padding: 0.4em 2em;
+    width: 20em;
+    height: 4em;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    gap: 4em;
 }
