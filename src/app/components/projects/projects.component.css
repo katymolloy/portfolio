@@ -61,9 +61,8 @@ a:hover {
     /* font-size: var(--text-sm); */
     display: flex;
     flex-direction: column;
-
-    /* border-radius: 0 0 7px 7px; */
-    height: 20.7em;
+    border-radius: 0 0 6px 6px;
+    height: 20.78em;
     opacity: 1;
     object-fit: cover;
     object-position: center;
@@ -76,6 +75,7 @@ a:hover {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 0 0 6px 6px;
 }
 
 

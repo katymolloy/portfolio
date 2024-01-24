@@ -42,7 +42,9 @@
 
 .about-image {
   filter: grayscale(100%);
-  width: 22em;
+  max-width: 22em;
+  /* width: 22em; */
+  object-fit: fill;
   border-radius: 7px;
   padding: 0;
 }
